@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "Kai-Wa-Ho-Quiz"
+version = "0.1.0"
+description = "Churn analysis notebook"
+authors = ["Kai Wa Ho <jj129106@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+plotly = "*"
+ipywidgets = "*"
+xgboost = "*"
+scikit-learn = "*"
+statsmodels = "*"
+lifelines = "*"
+interpret = "*"
+openpyxl = "*"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
